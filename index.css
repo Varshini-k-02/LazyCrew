@@ -53,6 +53,7 @@ body,html{
 }
 .sec1{
     padding-top:80px;
+    height:625px;
 }
 .content1{
     padding-left:70px;
@@ -88,9 +89,7 @@ body,html{
     width:1356px;
     overflow-y: hidden;
 }
-.sec3{
-    /* padding-left: ; */
-}
+
 .overlay{
     width:600px;
     height:300px;
@@ -125,27 +124,6 @@ body,html{
 
   }
 
-  /* @keyframes cursor {
-   0% {
-    border-color: rgb(255, 255, 255);
-   }
-   50% {
-    border-color: rgb(255, 255, 255);
-   }
-   65% {
-    border-color: transparent;
-   }
-   75% {
-    border-color: transparent;
-   }
-   90% {
-    border-color: rgb(255, 255, 255);
-   }
-   100% {
-    border-color: rgb(255, 255, 255);
-   }
-
-  } */
 
   @keyframes typing {
    to {
@@ -201,4 +179,29 @@ body,html{
  }
  #navlogo{
      padding:0;
+ }
+ .sec3{
+     height:600px;
+     width:100vw;
+     /* background-color: rgb(47, 47, 47); */
+     position: relative;
+     top:-5%;
+ }
+ .specs{
+     color:white;
+     padding-left: 610px;
+     font-size:30px;
+     padding-top:20px;
+ }
+ .s1{
+     width:190px;
+     height:300px;
+     color: white;
+     padding-left: 100px;
+ }
+ .s2{
+    width:190px;
+    height:300px;
+    color: white;
+    padding-left: 100px;
  }
