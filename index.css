@@ -2,9 +2,10 @@
 *{
     font-family: 'Poppins', sans-serif;
     font-size:18px;
+    margin:0px;
+    padding:0px;
 }
 body,html{
-    height:100vh;
     width:100vw;
     margin:0px;
     padding:0px;
@@ -21,7 +22,7 @@ body,html{
     
 }
 #navpos{
-    position: fixed;
+    /* position: fixed; */
     z-index:1;
     padding:0;
     height:65px;
@@ -74,8 +75,8 @@ body,html{
 .imgtab2{
     position: relative;
     left:470px;
-    width:450px;
-    height:350px;
+    width:550px;
+    height:420px;
     padding-left:10px;
 }
 .rotation{
@@ -184,12 +185,11 @@ body,html{
  #navlogo{
      padding:0;
  }
- .sec3{
+ .slides{
      height:600px;
      width:100vw;
-     /* background-color: rgb(47, 47, 47); */
-     position: relative;
-     top:-5%;
+     /* position: relative;
+     bottom:508px; */
  }
  .specs{
      color:white;
@@ -259,4 +259,127 @@ body,html{
  #getsbtn:hover:before{
      top:0;
      height:100%;
+ }
+ .imgtab3{
+    width:650px;
+    height:500px;
+    position: relative;
+    bottom:370px;
+    left:600px;
+ }
+ #size{
+     height:800px;
+     width:100vw;
+ }
+
+.slideblack{
+    color:#000000;
+    font-weight: 900;
+}
+
+ .carousel .carousel-item{
+     height:650px;
+ }
+ footer{
+     position: sticky;
+     
+     height:120px;
+     width:100vw;
+     
+
+ }
+ .contact{
+     width:150px;
+     font-size:25px;
+     color:white;
+     left: 50%;
+     position: relative;
+     left:875px;
+     bottom:350px;
+     text-align: center;
+ }
+ .socials{
+     width:200px;
+
+    font-size:25px;
+    color:white;
+    position: relative;
+    left:875px;
+    top:-320px;
+
+ }
+ .icons{
+     display:flex;
+     justify-content: space-around;
+     position: relative;
+     left:800px;
+     top:-300px;
+     margin-left:70px;
+
+ }
+ /* .li,.insta,.fb,.twit:hover{
+    stroke: #FAFCDB;
+ } */
+ #mail{
+     position:relative;
+     top:80px;
+     left:100px;
+ }
+ #mailid{
+    font-size:18px;
+    color:white;
+    position: relative;
+    left:150px;
+    top: 50px;
+    width:300px;
+    margin:0;
+    padding: 0;
+ }
+ #ph{
+     position: relative;
+     left:100px;
+     top:80px;
+     
+ }
+ #no{
+     width:200px;
+    color:white;
+    position: relative;
+    top:50px;
+    left:150px;
+ }
+ iframe{
+     height:500px;
+     width:650px;
+     position: relative;
+     bottom:-90px;
+     left:40px;
+
+ }
+ .leftc{
+     position: relative;
+     bottom:400px;
+     left:730px;
+     width:150px;
+ }
+ 
+ .sec3{
+     height:600px;
+ }
+ .sideicons
+ {
+    position: fixed;
+    bottom: 190px;
+    right: 35px;
+    z-index: 99;
+    border: none;
+    color: var(--white);
+    background: transparent;
+    border-radius: 10px;
+
+ }
+ ul{
+     /* display:flex;
+     flex-direction: column; */
+    justify-content: space-between;
  }
