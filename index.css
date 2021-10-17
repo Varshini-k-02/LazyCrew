@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
-    font-size:18px;
+    font-size:17px;
     margin:0px;
     padding:0px;
 }
 body,html{
     width:100vw;
     margin:0px;
-    padding:0px;
     background-image: linear-gradient(to right, #1c1818, #171414, #110e0f, #090808, #000000);
 }
 #navitems{
@@ -119,7 +118,7 @@ body,html{
     padding-left: 230px;
 }
 .content2{
-    width:300px;
+    width:400px;
     height:300px;
     position: relative;
     right:480px;
@@ -184,6 +183,8 @@ body,html{
   .para2{
     font-size: 60px;
     color:white;
+    position: relative;
+    bottom:40px;
   }
   .pink{
     font-size: 60px;
@@ -224,8 +225,8 @@ body,html{
  .slides{
      height:600px;
      width:100vw;
-     /* position: relative;
-     bottom:508px; */
+     position: relative;
+     top:48px;
  }
  .specs{
      color:white;
@@ -253,9 +254,17 @@ body,html{
   }
 .p3{
     color:white;
-    font-size:25px;
+    font-size:20px;
     width:600px;
+    margin-top: -50px;
 }
+#txt1{
+    color:white;
+    position: relative;
+    left:550px;
+    top:100px;
+}
+
 #getsbtn{
     width:150px;
     height:50px;
@@ -263,12 +272,10 @@ body,html{
     position:relative;
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%, -50%);
     text-align: center;
-    /* top:180px;
-    left:680px; */
-    /* transform: translate(50%,50%); */
+    
     font-size: 22px;
     font-weight: 600;
     text-decoration: none;   
@@ -296,6 +303,23 @@ body,html{
      top:0;
      height:100%;
  }
+ #txt2{
+    color:white;
+    position: relative;
+    left:10px;
+    font-size:20px;
+}
+#lm{
+    width:100px;
+    height:30px;
+    border: 1px transparent;
+    position: relative;
+    left:200x;
+    color:#000000;
+    font-size:17px;
+    margin-left:50px;
+    margin-top: 20px;
+}
  .imgtab3{
     width:650px;
     height:500px;
@@ -317,93 +341,78 @@ body,html{
      height:650px;
  }
  footer{
-     position: sticky;
      
-     height:390px;
+     height:410px;
      width:100vw;
+     position: sticky;
      
 
  }
  .contact{
      width:150px;
-     font-size:25px;
-     color:white;
+     font-size: 15px;
+     color:rgb(255, 234, 118);
      left: 50%;
      position: relative;
-     left:695px;
-     bottom:210px;
+     left:656px;
+     bottom:21px;
      text-align: center;
+     
  }
- .socials{
-     width:200px;
-
-    font-size:25px;
-    color:white;
-    position: relative;
-    left:1075px;
-    bottom:545px;
-
- }
+ 
  .icons{
      display:flex;
      justify-content: space-around;
      position: relative;
-     left:1000px;
-     bottom:500px;
-     margin-left:70px;
+     left:1050px;
+     top:-128px;
+     
 
  }
  /* .li,.insta,.fb,.twit:hover{
     stroke: #FAFCDB;
  } */
- #mail{
-     position:relative;
-     top:80px;
-     left:100px;
- }
+
  #mailid{
-    font-size:18px;
+    font-size: 15px;
     color:white;
     position: relative;
-    left:150px;
-    top: 50px;
+    left:690px;
+    bottom: 120px;
     width:300px;
     margin:0;
     padding: 0;
  }
- #ph{
-     position: relative;
-     left:100px;
-     top:90px;
-     
- }
+
  #no{
      width:200px;
     color:white;
     position: relative;
-    top:50px;
-    left:150px;
+    bottom:100px;
+    left:685px;
+    font-size: 15px;
  }
  #no2{
     position: relative;
-    top:40px;
-    left:150px;
+    bottom:100px;
+    left:685px;
     width:200px;
+    font-size: 15px;
     color:white;
  }
  iframe{
 
      position: relative;
-     bottom:-76px;
-     left:40px;
+     bottom:-126px;
+     left:1025px;
 
  }
- .leftc{
+ /* .add{
      position: relative;
-     bottom:290px;
-     left:550px;
-     width:150px;
- }
+     bottom:300px;
+     left:530px;
+     
+ } */
  
  .sec3{
      height:600px;
@@ -427,16 +436,41 @@ body,html{
  }
  #pin{
      position: relative;
-     left:99px;
-     top:54px;
+     left:960px;
+     bottom:104px;
  }
  #ad{
     position: relative;
-    left:149px;
-    top:19px;
-    width:400px;
+    left:1010px;
+    bottom:137px;
+    width:310px;
     height:50px;
     color:white;
+    font-size: 15px;
  }
- 
- 
+ #recft{
+     width:200px;
+     font-size: 15px;
+     padding: 0;
+     margin:0%;
+     color:rgb(255, 234, 118);
+     position: relative;
+     bottom:60px;
+     left:50px;
+ }
+ #aboutft{
+    width:100px;
+    font-size: 15px;
+    color:rgb(255, 234, 118);
+    position: relative;
+    left:498px;
+    bottom:121px;
+ }
+ #sptft{
+    width:100px;
+    color:rgb(255, 234, 118);
+    font-size: 15px;
+    position: relative;
+    left:298px;
+    bottom:83px;
+ }
